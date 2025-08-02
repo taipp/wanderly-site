@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Satoshi';
+    font-weight: 700;
+    src: url("../fonts/Satoshi-Bold.woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    font-weight: 500;
+    src: url("../fonts/Satoshi-Medium.woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    font-weight: 400;
+    src: url("../fonts/Satoshi-Regular.woff");
+    font-display: swap;
+}

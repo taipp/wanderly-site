@@ -1,0 +1,72 @@
+@import "../components/index.css";
+
+@import "../base/fonts.css";
+@import "../base/index.css";
+@import "../base/reset.css";
+@import "../components/header.css";
+@import "../components/button.css";
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif, Arial;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1374px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    flex-shrink: 0;
+}
+
+.main {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2f2f2f;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.h1 {
+    font-size: 168px;
+}
+
+.h2 {
+    font-size: 80px;
+}
+
+.h3 {
+    font-size: 40px;
+}
+
+.h4 {
+    font-size: 32px;
+}

@@ -1,0 +1,39 @@
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+}
+
+.header__logo {
+    flex-shrink: 0;
+    width: 180px;
+    height: 40px;
+    fill: #2F2F2F;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+}
+
+.header__actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    border: 1px solid #cecece;
+    border-radius: 100px;
+    padding: 4px;
+}
+
+.header__nav-list-item-link {
+    padding: 9px 24px;
+    display: inline-block;
+}
