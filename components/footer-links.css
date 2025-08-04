@@ -1,0 +1,37 @@
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__nav {
+    display: flex;
+    column-gap: 107px;
+    margin-bottom: 100px;
+}
+
+.footer__list {
+    width: 100%;
+}
+
+.footer__list-item {
+    margin-bottom: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer__nav-list-item {
+    margin-bottom: 16px;
+}
+
+.footer__social-links {
+    flex-grow: 1;
+}
+
+.footer__social-links {
+    margin-left: auto;
+}

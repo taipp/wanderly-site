@@ -1,4 +1,24 @@
 .footer {
+    overflow: hidden;
     background-color: rgb(47, 47, 47);
+    color: #fff;
+    position: relative;
 }
 
+.footer__logo {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    /*translate(-50%, -100%)*/
+    fill: #424242;
+}
+
+.footer__inner {
+    position: relative;
+    display: flex;
+    column-gap: 138px;
+    padding-top: 72px;
+    padding-bottom: 240px;
+}
