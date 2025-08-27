@@ -4,3 +4,7 @@
 @import "../components/newsletter.css";
 @import "../components/action-input.css";
 @import "../components/footer-links.css";
+@import "section-tour-types.css";
+@import "badge.css";
+@import "location-card.css";
+@import "tour-card.css";

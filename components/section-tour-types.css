@@ -1,0 +1,10 @@
+.section-tour-types__title {
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.section-tour-types__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}

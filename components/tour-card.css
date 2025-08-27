@@ -1,0 +1,80 @@
+.tour-card {
+    display: flex;
+    column-gap: 32px;
+    padding: 32px;
+    border-radius: 40px;
+}
+
+.tour-card.tour-card--green {
+    background-color: #B0C881;
+}
+
+.tour-card.tour-card--purple {
+    background-color: #8F9BB8;
+}
+
+.tour-card.tour-card--brown {
+    background-color: #C09D8A;
+}
+
+.tour-card.tour-card--pink {
+    background-color: #CE8491;
+}
+
+.tour-card.tour-card--blue {
+    background-color: #89ADCF;
+}
+
+.tour-card__badge {
+    align-self: flex-start;
+    margin-bottom: auto;
+}
+
+.tour-card__content {
+    width: 30%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.tour-card__locations {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 24px;
+}
+
+.tour-card__content-desc {
+    color: white;
+    margin-bottom: 24px;
+}
+
+/*.tour-card__content-action {*/
+/*    color: white;*/
+/*    margin-bottom: 24px;*/
+/*}*/
+
+.tour-card__content-action {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.tour-card.tour-card--green .tour-card__content-action {
+    color: #B0C881;
+}
+
+.tour-card.tour-card--purple .tour-card__content-action {
+    color: #8F9BB8;
+}
+
+.tour-card.tour-card--brown .tour-card__content-action {
+    color: #C09D8A;
+}
+
+.tour-card.tour-card--pink .tour-card__content-action {
+    color: #CE8491;
+}
+
+.tour-card.tour-card--blue .tour-card__content-action {
+    color: #89ADCF;
+}

@@ -1,4 +1,3 @@
-@import "../components/index.css";
 
 @import "../base/fonts.css";
 @import "../base/index.css";
@@ -7,7 +6,7 @@
 @import "../components/button.css";
 
 
-html, body {
+body {
     height: 100%;
 }
 

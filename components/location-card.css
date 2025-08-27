@@ -1,0 +1,69 @@
+:root {
+    --padding: 32px
+}
+
+.location-card {
+    width: 100%;
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location-card__inner {
+    padding-bottom: 83.33%;
+    /*background-color: coral;*/
+}
+
+.location-card__badge {
+    position: absolute;
+    top: var(--padding);
+    left: var(--padding);
+}
+
+.location-card__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: var(--padding);
+    top: var(--padding);
+}
+
+.location-card__action-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.location-card__title {
+    color: #FFFFFF;
+    position: absolute;
+    left: var(--padding);
+    bottom: var(--padding);
+    right: var(--padding);
+}
+
+.location-card__action-icon--green {
+    color: #B0C881;
+}
+
+.location-card__action-icon--purple {
+    color: #8F9BB8;
+}
+
+.location-card__action-icon--brown {
+    color: #C09D8A;
+}
+
+.location-card__action-icon--pink {
+    color: #CE8491;
+}
+
+.location-card__action-icon--blue {
+    color: #89ADCF;
+}

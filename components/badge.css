@@ -1,0 +1,14 @@
+.badge {
+    font-size: 16px;
+    display: inline-flex;
+    padding: 5px 16px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    border: 1px solid;
+}
+
+.badge.badge--green {
+    background-color: rgba(123, 163, 45, 0.5);
+    border: rgba(255, 255, 255, 0.15);
+
+}
