@@ -13,6 +13,7 @@
 
 .location-card__inner {
     padding-bottom: 83.33%;
+    /*background: linear-gradient(360deg,hsla(154, 53%, 82%, 1) 0%, transparent 20%);*/
     /*background-color: coral;*/
 }
 
