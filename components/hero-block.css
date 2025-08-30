@@ -1,0 +1,19 @@
+.hero-block__title {
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.hero-block__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.hero-block__content-desc {
+    max-width: 400px;
+    opacity: 80%;
+}
+
+.hero-block__content .button--secondary {
+    margin-right: 35px;
+}

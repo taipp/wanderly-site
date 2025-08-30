@@ -37,6 +37,10 @@ body {
     flex-grow: 1;
 }
 
+.main .text--grey {
+    color: #2F2F2F;
+}
+
 .footer {
     flex-shrink: 0;
 }
