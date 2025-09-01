@@ -6,4 +6,9 @@
     margin-bottom: 240px;
 }
 
-.home-page
+.home-page__section {
+    background-color: #2f2f2f;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    margin-bottom: 240px;
+}

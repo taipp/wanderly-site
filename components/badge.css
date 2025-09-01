@@ -9,30 +9,41 @@
 
 .badge.badge--green {
     background-color: rgba(123, 163, 45, 0.5);
-    border: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 
 }
 
 .badge.badge--purple {
     background-color: rgba(69, 88, 136, 0.5);
-    border: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 
 }
 
 .badge.badge--brown {
     background-color: rgba(181, 135, 109, 0.5);
-    border: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 
 }
 
 .badge.badge--pink {
     background-color: rgba(173, 49, 71, 0.5);
-    border: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 
 }
 
 .badge.badge--blue {
     background-color: rgba(111, 155, 197, 0.5);
-    border: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+
+.badge.badge--white {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+}
+
+.badge--lg {
+    padding: 14px 24px;
 
 }
