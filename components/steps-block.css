@@ -1,0 +1,108 @@
+.steps-block {
+}
+
+.steps-block__content-badge {
+    margin-bottom: 24px;
+}
+
+.steps-block__content-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 86px;
+}
+
+.steps-block__content-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.steps-block-top_row {
+    display: flex;
+    column-gap: 24px;
+}
+
+.steps-block-bottom_row {
+    justify-content: flex-end;
+    display: flex;
+    column-gap: 24px;
+}
+
+.step-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.step-card.arrow-right::after {
+    z-index: 1;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    content: "";
+    background: url("../icons/arrow_right.svg") no-repeat center center;
+    background-size: 50% auto;
+    background-color: #2F2F2F;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    top: 130px;
+    left: 95%;
+    /*left: 420px;*/
+    transform: translateY(-50%);
+    padding: 16px;
+}
+
+.step-card.arrow-down::after {
+    z-index: 3;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    content: "";
+    background: url("../icons/arrow_bottom.svg") no-repeat center center;
+    background-size: 40% auto;
+    background-color: #2F2F2F;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    /*top: 262px;*/
+    top: 98%;
+    /*left: 184px;*/
+    left: 40%;
+    transform: translateY(-20%);
+    padding: 16px;
+}
+
+.step-card-number {
+    font-weight: 500;
+    color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 64px;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.step-card-title {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.step-card-desc {
+    color: rgba(255, 255, 255, 0.8);
+    /*max-width: 285px;*/
+}
+
