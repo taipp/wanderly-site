@@ -41,6 +41,10 @@ body {
     color: #2F2F2F;
 }
 
+.main .text--grey-opacity {
+    color: rgba(47, 47, 47, 0.8);
+}
+
 .footer {
     flex-shrink: 0;
 }
