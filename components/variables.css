@@ -1,0 +1,6 @@
+:root {
+    --opacityBorderColor: rgba(255, 255, 255, 0.2);
+    --backgroundColorGray: #3F3F3F;
+
+    --whiteOpacity80Text: rgba(255, 255, 255, 0.8);
+}

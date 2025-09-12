@@ -1,0 +1,23 @@
+.faq {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 72px;
+}
+
+.faq__accordion {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.faq__info {
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.faq__info-title {
+    font-weight: 500;
+}
+
+.faq__info-badge {
+    margin-bottom: 24px;
+}

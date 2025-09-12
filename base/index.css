@@ -66,14 +66,30 @@ p {
     font-size: 168px;
 }
 
+.h1--white {
+    color: #FFFFFF;
+}
+
 .h2 {
     font-size: 80px;
+}
+
+.h2--white {
+    color: #FFFFFF;
 }
 
 .h3 {
     font-size: 40px;
 }
 
+.h3--white {
+    color: #FFFFFF;
+}
+
 .h4 {
     font-size: 32px;
+}
+
+.h4--white {
+    color: #FFFFFF;
 }

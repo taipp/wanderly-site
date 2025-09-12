@@ -106,3 +106,37 @@
     /*max-width: 285px;*/
 }
 
+/*test part*/
+
+.step-card.step-card--test {
+    padding: 0;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.step-card__inner--test {
+    border-radius: 24px;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.step-card__inner--test::after {
+    z-index: 100;
+
+    content: "";
+    position: absolute;
+    top: 100px;
+    right: -25px;
+    background-color: #2F2F2F;
+    outline: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 0;
+    width: 60px;
+    height: 60px;
+
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transform: translateY(-50%);
+}
