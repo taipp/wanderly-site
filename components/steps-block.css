@@ -1,10 +1,3 @@
-.steps-block {
-}
-
-.steps-block__content-cards.inactive {
-    display: none;
-}
-
 .steps-block__content-badge {
     margin-bottom: 24px;
 }
@@ -13,23 +6,6 @@
     color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 86px;
-}
-
-.steps-block__content-cards {
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-}
-
-.steps-block-top_row {
-    display: flex;
-    column-gap: 24px;
-}
-
-.steps-block-bottom_row {
-    justify-content: flex-end;
-    display: flex;
-    column-gap: 24px;
 }
 
 .step-card {
@@ -41,49 +17,6 @@
     border-radius: 24px;
     background-color: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.step-card.arrow-right::after {
-    z-index: 1;
-    border-top: none;
-    border-bottom: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    content: "";
-    background: url("../icons/arrow_right.svg") no-repeat center center;
-    background-size: 50% auto;
-    background-color: #2F2F2F;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    top: 130px;
-    left: 95%;
-    /*left: 420px;*/
-    transform: translateY(-50%);
-    padding: 16px;
-}
-
-.step-card.arrow-down::after {
-    z-index: 3;
-    border-top: none;
-    border-bottom: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    content: "";
-    background: url("../icons/arrow_bottom.svg") no-repeat center center;
-    background-size: 40% auto;
-    background-color: #2F2F2F;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    /*top: 262px;*/
-    top: 98%;
-    /*left: 184px;*/
-    left: 40%;
-    transform: translateY(-20%);
-    padding: 16px;
 }
 
 .step-card-number {
@@ -108,39 +41,4 @@
 .step-card-desc {
     color: rgba(255, 255, 255, 0.8);
     /*max-width: 285px;*/
-}
-
-/*test part*/
-
-.step-card.step-card--test {
-    padding: 0;
-    border: 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.step-card__inner--test {
-    border-radius: 24px;
-    padding: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /*width: 100%;*/
-    /*height: 100%;*/
-}
-
-.step-card__inner--test::after {
-    z-index: 100;
-
-    content: "";
-    position: absolute;
-    top: 100px;
-    right: -25px;
-    background-color: #2F2F2F;
-    outline: 1px solid rgba(255, 255, 255, 0.2);
-    border-left: 0;
-    width: 60px;
-    height: 60px;
-
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    transform: translateY(-50%);
 }
