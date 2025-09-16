@@ -1,0 +1,122 @@
+.steps-block__content-cards.steps-block__content--grid {
+    position: relative;
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-rows: repeat(2, 1fr);*/
+    grid-template-columns: repeat(3, min-content);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.steps-block__content--grid .item1{ grid-area: 1 / 1 / 2 / 2; }
+.steps-block__content--grid .item2{ grid-area: 1 / 2 / 2 / 3; }
+.steps-block__content--grid .item3{ grid-area: 2 / 2 / 3 / 3; }
+.steps-block__content--grid .item4{ grid-area: 2 / 3 / 3 / 4; }
+
+.step-card-adv {
+    position: relative;
+}
+
+.step-card-adv__wrapper {
+    overflow: hidden;
+}
+
+.step-card__inner-adv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.step-card__inner-adv:before {
+    position: absolute;
+    background-color: #2F2F2F;
+    outline: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.step-card__inner-adv:after {
+    position: absolute;
+    background-color: #2F2F2F;
+    outline: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.step-card__inner-adv.circle-right:after {
+    position: absolute;
+    content: "";
+
+    width: 61px;
+    height: 61px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+
+    top: 50%;
+    transform: translateY(-50%);
+    right: -41px;
+}
+
+.step-card__inner-adv.circle-left:before {
+    position: absolute;
+    content: "";
+
+    width: 61px;
+    height: 64px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: -41px;
+}
+
+.step-card__inner-adv.circle-bottom:after {
+    position: absolute;
+    content: "";
+
+    width: 64px;
+    height: 61px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+
+    bottom: -41px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.step-card__inner-adv.circle-top:before {
+    position: absolute;
+    content: "";
+
+    width: 64px;
+    height: 61px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+
+    top: -41px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.step-card__arrow {
+    width: 32px;
+    height: 32px;
+    fill: #FFFFFF;
+    z-index: 5;
+}
+
+.step-card__arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 99%;
+    transform: translateY(-50%);
+}
+
+.step-card__arrow-down {
+    position: absolute;
+    top: 99%;
+    right: 50%;
+    transform: rotate(90deg) translateY(-50%);
+}

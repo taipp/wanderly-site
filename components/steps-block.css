@@ -1,6 +1,10 @@
 .steps-block {
 }
 
+.steps-block__content-cards.inactive {
+    display: none;
+}
+
 .steps-block__content-badge {
     margin-bottom: 24px;
 }
