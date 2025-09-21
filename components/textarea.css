@@ -1,0 +1,23 @@
+.textarea {
+    padding: 12px 13px;
+    border: 1px solid #B6B6B6;
+    background-color: #FFFFFF;
+    color: #B6B6B6;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 24px;
+
+    font-family: 'Satoshi', sans-serif, Arial;
+
+    resize: none;
+}
+
+.textarea::placeholder {
+    color: #B6B6B6;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.textarea:focus {
+    outline: none;
+}

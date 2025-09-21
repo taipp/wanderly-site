@@ -12,6 +12,8 @@
 }
 
 .accordion__item.is-active .accordion__item-content{
+    max-height: 100%;
+    padding: 0 32px 32px 32px;
     display: block;
 }
 
@@ -48,8 +50,11 @@
 }
 
 .accordion__item-content {
-    display: none;
-    padding: 0 32px 32px 32px;
+    transition: max-height 0.1s ease-in-out, padding 0.1s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    /*display: none;*/
+    /*padding: 0 32px 32px 32px;*/
 }
 
 .accordion__item-content-desc {

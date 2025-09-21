@@ -458,14 +458,14 @@
                 </ul>
             </section>
         </div>
-        <div class="home-page__section">
+        <div class="home-page__section home-page__section--faq">
             <div class="container">
                 <div class="faq">
                     <div class="faq__info">
                         <span class="faq__info-badge badge badge--white badge--lg">FAQ</span>
                         <h2 class="h2 faq__info-title h2--white">Questions you might have</h2>
                     </div>
-                    <div class="faq__accordion accordion">
+                    <div class="faq__accordion accordion" id="faq-accordion">
                         <div class="accordion__item is-active">
                             <div class="accordion__item-header">
                                 <h4 class="h4 accordion__item-header-title">How can I book a tour?</h4>
@@ -551,6 +551,35 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-page__section-contact">
+            <div class="container">
+                <div class="contact">
+                    <div class="contact__header">
+                        <span class="faq__info-badge badge badge--white badge--lg">Contacts</span>
+                        <a href="#" class="button button--primary">Find on Google Maps</a>
+                    </div>
+                    <div class="contact__content">
+                        <div class="contact__info">
+                            <h2 class="h2 contact__title h2--white">
+                                Want to learn more?
+                            </h2>
+                            <p class="contact__desc">
+                                We're just a message away! Fill out the form and we'll get back to you shortly.
+                            </p>
+                        </div>
+                        <form class="contact__form">
+                            <div class="contact__form-content">
+                                <input class="input" type="text" name="first_name" placeholder="First name">
+                                <input class="input" type="text" name="last_name" placeholder="Last name">
+                                <input class="input" type="email" name="email" placeholder="Email">
+                                <textarea class="textarea" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <button class="button button--secondary">Send message</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -661,5 +690,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/libs/accordion.js"></script>
+    <script src="./js/route/home.js"></script>
 </body>
 </html>

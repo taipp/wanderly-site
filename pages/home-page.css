@@ -12,3 +12,11 @@
     padding-bottom: 240px;
     margin-bottom: 240px;
 }
+
+.home-page__section--faq {
+    margin-bottom: 0;
+}
+
+.home-page__section-contact {
+    padding: 240px;
+}
