@@ -20,3 +20,19 @@
 .home-page__section-contact {
     padding: 240px;
 }
+
+.home-page__top-slider {
+    padding-top: 30px;
+    margin-bottom: 110px;
+    overflow: hidden;
+}
+
+.section-search-tours__slider-skew {
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.section-search-tours__slider-skew .location-card {
+    will-change: transform;
+    transform: rotate(-55deg) skewY(22deg) skewX(13deg) scale(90%);
+}

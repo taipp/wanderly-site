@@ -61,6 +61,11 @@
     flex-shrink: 0;
 }
 
+.section-search-tours__cards.inactive {
+    display: none;
+}
+
+
 /*alt way (background)*/
 
 /*.section-search-tours__cards {*/
